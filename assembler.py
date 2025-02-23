@@ -96,7 +96,7 @@ def encode_instruction(instruction):
 
 
 
-file_path='IMT2023528_ASSEMBLY.txt'
+file_path='ASSEMBLY.txt'
 with open(file_path, 'r') as file:
         instructions = file.readlines()
 machine_code=[0]*1000
