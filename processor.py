@@ -1,4 +1,4 @@
-from IMT2023528_assembler import machine_code
+from assembler import machine_code
 MEMORY=machine_code
 AC=0
 MQ=0
