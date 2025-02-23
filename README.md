@@ -12,12 +12,11 @@ This project implements an IAS processor in C++ with a 200 MHz clock frequency, 
 
 ## Project Structure
 - `processor.py` - Main processor simulation code.(It will take output from assembler and use it as input)
-- `assembler.c` - Assembler for converting assembly to binary.
-- `assembly_input.txt` - Sample assembly program input.
+- `assembler.py` - Assembler for converting assembly to binary.
+- `ASSEMBLY.txt` - Sample assembly program input.
 
 ## How to Run
 1. **Compile the Code:**  
-   gcc assembler.c -o assembler
-   ./assembler assembly_input.txt
+   python3 assembler.py ASSEMBLY.txt
    python3 processor.py 
 
